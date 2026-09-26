@@ -130,3 +130,7 @@ footer{padding:42px 0}.footer-grid{gap:22px}.footer-icons{gap:9px!important}.qua
 /* v12: alternating homepage section backgrounds */
 .editorial,.notes{background:var(--ice)}
 .intro,.cards.research-grid{background:var(--ice);box-shadow:0 0 0 100vmax var(--ice);clip-path:inset(0 -100vmax)}
+
+/* v13: CV hero spacing and repository link */
+.cv-hero .actions{margin-top:28px}.cv-hero .page-lede a{font-weight:700;text-decoration:none;border-bottom:1px solid #9aaab6}.cv-hero .page-lede a:hover{color:var(--ink);border-color:var(--ink)}
+@media(max-width:800px){.cv-hero .actions{margin-top:22px}}
