@@ -1,41 +1,112 @@
-# Mohammad Ful Hossain Seikh: Personal Website
+# Mohammad Ful Hossain Seikh | Personal Academic Website
 
-Personal academic website designed for GitHub Pages. The main portfolio pages are static HTML to preserve the custom design. Quarto is used for the Notes/blog workflow so new posts can be written in Markdown.
+Personal academic website of **Mohammad Ful Hossain Seikh**, Postdoctoral Researcher in Particle Astrophysics at the University of Kansas.
 
-## Recommended repository
+### [Visit the live website →](https://mohammad-neutrino.github.io/)
 
-Create the GitHub repository `Mohammad-Neutrino.github.io` under the `Mohammad-Neutrino` account and place these files at the repository root.
+The site presents my research, scientific software, publications, invited talks, curriculum vitae, field work, and future research notes.
 
-## Local preview
+## Website Structure
 
-The static pages can be opened directly in a browser. For the complete Quarto site including Notes:
+The main portfolio pages use custom static HTML, CSS, and JavaScript to preserve the site's visual design and lightweight structure.
+
+Current sections include:
+
+- Home
+- Research
+- Projects
+- Publications
+- Talks
+- Notes
+- CV
+
+Quarto is used for the **Notes** workflow so longer-form posts can be written in Markdown while remaining integrated with the rest of the website.
+
+## Local Preview
+
+Static HTML pages can be opened directly in a browser.
+
+To preview the complete site, including Quarto-generated content:
 
 ```bash
 quarto preview
 ```
 
-## Add a new Note
+## Adding a Note
 
-Copy `posts/_template/` to a new folder, for example:
+New Notes are written as Quarto documents.
+
+Copy the template directory:
+
+```text
+posts/_template/
+```
+
+to a new post directory, for example:
 
 ```text
 posts/2026-10-radio-neutrinos/index.qmd
 ```
 
-Update the title, date, description, categories, and set `draft: false` when ready to publish.
+Update the title, date, description, categories, and content.
+
+Set:
+
+```yaml
+draft: false
+```
+
+when the post is ready to publish.
+
+## Curriculum Vitae
+
+The CV source is maintained separately in the dedicated repository:
+
+[github.com/Mohammad-Neutrino/CV](https://github.com/Mohammad-Neutrino/CV)
+
+The CV workflow is automated:
+
+```text
+cv.tex
+  → GitHub Actions
+  → cv.pdf
+  → website CV viewer
+```
+
+Updates pushed from Overleaf or Git to `cv.tex` automatically rebuild `cv.pdf`. The website then displays the latest generated PDF without requiring a manual website update.
 
 ## Deployment
 
-The included GitHub Actions workflow renders Quarto and deploys `_site` to GitHub Pages on pushes to `main`. In the GitHub repository, set **Settings → Pages → Source** to **GitHub Actions**.
+The website is deployed through **GitHub Pages**.
 
-## License and reuse
+The GitHub Actions workflow:
+
+1. checks out the repository,
+2. installs Quarto,
+3. renders the site into `_site`,
+4. uploads the Pages artifact,
+5. deploys the site to GitHub Pages.
+
+Deployment runs automatically on pushes to the `main` branch.
+
+Live site:
+
+**[https://mohammad-neutrino.github.io/](https://mohammad-neutrino.github.io/)**
+
+## License and Reuse
 
 The website source code and layout are available under the MIT License.
 
-Personal and scholarly content, including photographs, CV material, talk
-slides, research text, publication imagery, personal branding, and other
-biographical materials, is not included in the software license unless
-explicitly stated otherwise.
+Personal and scholarly content is excluded from the software license. This includes, but is not limited to:
 
-If you adapt the website structure or design for your own academic site,
-attribution to Mohammad Ful Hossain Seikh is appreciated.
+- photographs,
+- CV and biographical material,
+- research descriptions,
+- talk slides and screenshots,
+- publication imagery,
+- personal branding,
+- logos and third-party media.
+
+If you adapt the website structure or design for your own academic site, attribution to **Mohammad Ful Hossain Seikh** and a link to this repository are appreciated.
+
+See [`LICENSE`](LICENSE) for details.
