@@ -1,4 +1,4 @@
-# Mohammad Ful Hossain Seikh — Personal Website
+# Mohammad Ful Hossain Seikh: Personal Website
 
 Personal academic website designed for GitHub Pages. The main portfolio pages are static HTML to preserve the custom design. Quarto is used for the Notes/blog workflow so new posts can be written in Markdown.
 
