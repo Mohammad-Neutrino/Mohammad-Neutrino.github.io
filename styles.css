@@ -96,3 +96,33 @@ footer{padding:55px 0}.footer-grid{display:flex;justify-content:space-between;ga
 body.quarto-light .site-header{position:relative;z-index:10}#quarto-content{padding:0;margin:0;max-width:none}.quarto-title-block,.quarto-title-banner,.quarto-title{display:none!important}main.content{max-width:none!important;margin:0!important;padding:0!important}.quarto-listing{max-width:none;margin:0;padding:0 0 80px}
 
 @media(max-width:900px){.talk-entry{grid-template-columns:140px minmax(0,1fr);gap:18px}.talk-entry .talk-year{grid-column:2;grid-row:1;font-size:1.2rem;padding:0}.talk-entry>div{grid-column:2;grid-row:1 / span 2;padding-top:28px}.talk-thumb{grid-row:1 / span 2}.summer-school-gallery{grid-template-columns:1fr}.summer-school-gallery img{height:auto}.notes-coming-head,.notes-preview-grid{grid-template-columns:1fr}.notes-coming-head{gap:20px}.notes-preview-grid{gap:0}.notes-listing-section{padding-top:42px}}
+
+/* v11: section separation, editorial balance, and mobile polish */
+.page-hero{border-bottom:1px solid var(--line)}.page-main>.page-section+.page-section{border-top:1px solid var(--line)}.page-main>.pdf-frame{border-top:1px solid var(--line);padding-top:42px}#projects,#publications,#talks,.education,.notes{border-top:1px solid var(--line)}
+
+/* Editorial hierarchy */
+.editorial-highlight{grid-template-columns:minmax(290px,.42fr) minmax(0,.58fr);gap:64px}.editorial-highlight .editorial-cover{max-width:360px}.editorial-details h3{font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:2rem;line-height:1.18;font-weight:760;letter-spacing:-.025em;margin:0 0 18px}.editorial-details h3 span{display:inline}.editorial-details h3 span:not(:last-child)::after{content:" "}
+.editorial-page-feature{grid-template-columns:minmax(280px,.42fr) minmax(0,.58fr);gap:64px}.editorial-page-feature img{max-width:390px}.editorial-page-feature h2{font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:2.15rem;line-height:1.18;font-weight:760;letter-spacing:-.025em;margin:8px 0 18px}
+
+@media(max-width:900px){.editorial-highlight,.editorial-page-feature{grid-template-columns:1fr;gap:34px}.editorial-highlight .editorial-cover,.editorial-page-feature img{max-width:330px;margin-left:auto;margin-right:auto}.editorial-details h3,.editorial-page-feature h2{font-size:1.9rem}}
+
+@media(max-width:800px){
+body{overflow-x:hidden}.wrap{padding-left:20px;padding-right:20px}
+.site-header{position:relative;min-height:64px;height:auto;padding:11px 20px;gap:12px}.brand{max-width:calc(100% - 85px);white-space:normal;font-size:.88rem;line-height:1.18}.menu{display:block;margin-left:auto;border:1px solid var(--line);border-radius:99px;padding:7px 12px;background:#fff;color:var(--ink);font-size:.82rem}.site-header nav{top:100%;left:0;right:0;padding:12px 20px 18px;gap:0;border-top:1px solid var(--line);box-shadow:0 12px 30px rgba(16,27,45,.08)}.site-header nav a{width:100%;padding:10px 0;border-bottom:1px solid var(--line);font-size:.92rem}
+.hero{gap:30px;padding-top:28px;padding-bottom:58px}.hero h1{font-size:clamp(2.55rem,12vw,3.15rem);line-height:1;margin:15px auto 22px}.role{font-size:1.08rem;line-height:1.35}.affiliation{font-size:.92rem;line-height:1.45}.lede{font-size:1rem;line-height:1.62;margin:25px auto}.actions{flex-wrap:wrap;gap:9px}.button{padding:10px 16px;font-size:.86rem}.profiles{gap:12px 16px;margin-top:25px}
+h2{font-size:clamp(2.15rem,10vw,3rem);line-height:1.04}.intro{padding-top:62px;padding-bottom:48px}.intro-text{font-size:1.03rem;line-height:1.65}.cards{padding-bottom:72px}.field-feature{min-height:0}.section{padding-top:72px;padding-bottom:72px}.section-head{gap:14px;margin-bottom:30px}
+.project-grid{gap:58px}.project-img{height:260px}.project-grid h3{font-size:1.75rem}.project-fullname{font-size:.78rem;line-height:1.5}.project-description{min-height:0}
+.editorial{padding:68px 0}.publication-header{margin-bottom:32px}.publication-header>p:last-child{font-size:.98rem;line-height:1.62}.editorial-highlight{padding:34px 0}.editorial-highlight .editorial-cover{max-width:320px}.editorial-details h3{font-size:1.8rem;line-height:1.2}.editorial-details>p:not(.label){font-size:.98rem;line-height:1.62}.selected-work-head{margin-top:38px;gap:12px}.pub-card{padding:22px 0}
+.talk-grid{gap:42px}.talk-title{font-size:2.55rem}.education{padding-top:50px;padding-bottom:50px}.notes{padding:66px 0}
+.page-hero{padding-top:48px;padding-bottom:40px}.page-hero h1{font-size:clamp(2.7rem,12vw,3.4rem);line-height:1;margin:12px 0 20px}.page-lede{font-size:1rem;line-height:1.62}.page-section,.soft-section{padding-top:58px;padding-bottom:58px}.page-media-wide{padding-top:34px;padding-bottom:34px}.research-topic-grid{gap:10px}
+.project-page-stack{gap:66px}.project-page-card,.project-page-card.reverse{gap:30px}.project-page-copy h2{font-size:2.2rem}.project-fullname.large{font-size:.9rem;line-height:1.55}
+.editorial-page-feature img{max-width:320px}.editorial-page-feature h2{font-size:1.9rem}.publication-group{padding:28px 0 34px}.publication-group>h2{font-size:1.9rem}.publication-entry{padding:20px 0}
+.talk-page-gallery{gap:18px}.summer-school-feature{gap:30px}.pdf-frame{padding-top:30px;padding-bottom:58px}.pdf-frame iframe{height:70vh;min-height:520px}
+footer{padding:42px 0}.footer-grid{gap:22px}.footer-icons{gap:9px!important}.quarto-title{margin-top:48px;padding-left:20px;padding-right:20px}.quarto-title h1.title{font-size:2.7rem}.quarto-listing,main.content{padding-left:20px;padding-right:20px}
+}
+
+@media(max-width:520px){
+.wrap{padding-left:16px;padding-right:16px}.site-header{padding-left:16px;padding-right:16px}.brand{font-size:.82rem}.hero{padding-top:24px}.hero h1{font-size:2.55rem}.hero-photo img{max-height:none}.project-img{height:220px}
+.editorial-highlight .editorial-cover,.editorial-page-feature img{width:92%;max-width:310px}.editorial-details h3,.editorial-page-feature h2{font-size:1.68rem}
+.talk-collage{grid-template-columns:1fr}.talk-collage .talk-slide:nth-child(3){grid-column:auto}.talk-entry{grid-template-columns:1fr;gap:5px}.talk-year{font-size:1.25rem}.page-hero h1{font-size:2.65rem}.page-links{gap:12px 16px}.pdf-frame iframe{min-height:480px}
+}
