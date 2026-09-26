@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - notes.qmd
+    - posts/**/*.qmd
+  resources:
+    - index.html
+    - research.html
+    - projects.html
+    - publications.html
+    - talks.html
+    - cv.html
+    - styles.css
+    - site.js
+    - MyCV.pdf
+    - assets/**
+    - 404.html
+
+website:
+  title: "Mohammad Ful Hossain Seikh"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    page-layout: full
+    toc: false
+    include-before-body: includes/quarto-header.html
+    include-after-body: includes/quarto-footer.html

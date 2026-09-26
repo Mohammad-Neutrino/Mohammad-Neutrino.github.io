@@ -1,0 +1,21 @@
+---
+title: false
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  fields: [date, title, description]
+  sort-ui: false
+  filter-ui: false
+---
+
+```{=html}
+<main class="page-main"><section class="page-hero wrap"><p class="section-kicker">Notes</p><h1>Ideas, Explanations &amp; Notes</h1><p class="page-lede">Technical notes, physics explainers, research perspectives, and occasional stories from fieldwork, travel, and the lab.</p></section><section class="page-section wrap">
+```
+
+::: {#listing}
+:::
+
+```{=html}
+</section></main>
+```
