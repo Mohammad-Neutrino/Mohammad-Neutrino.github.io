@@ -126,3 +126,7 @@ footer{padding:42px 0}.footer-grid{gap:22px}.footer-icons{gap:9px!important}.qua
 .editorial-highlight .editorial-cover,.editorial-page-feature img{width:92%;max-width:310px}.editorial-details h3,.editorial-page-feature h2{font-size:1.68rem}
 .talk-collage{grid-template-columns:1fr}.talk-collage .talk-slide:nth-child(3){grid-column:auto}.talk-entry{grid-template-columns:1fr;gap:5px}.talk-year{font-size:1.25rem}.page-hero h1{font-size:2.65rem}.page-links{gap:12px 16px}.pdf-frame iframe{min-height:480px}
 }
+
+/* v12: alternating homepage section backgrounds */
+.editorial,.notes{background:var(--ice)}
+.intro,.cards.research-grid{background:var(--ice);box-shadow:0 0 0 100vmax var(--ice);clip-path:inset(0 -100vmax)}
