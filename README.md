@@ -27,3 +27,15 @@ Update the title, date, description, categories, and set `draft: false` when rea
 ## Deployment
 
 The included GitHub Actions workflow renders Quarto and deploys `_site` to GitHub Pages on pushes to `main`. In the GitHub repository, set **Settings → Pages → Source** to **GitHub Actions**.
+
+## License and reuse
+
+The website source code and layout are available under the MIT License.
+
+Personal and scholarly content, including photographs, CV material, talk
+slides, research text, publication imagery, personal branding, and other
+biographical materials, is not included in the software license unless
+explicitly stated otherwise.
+
+If you adapt the website structure or design for your own academic site,
+attribution to Mohammad Ful Hossain Seikh is appreciated.
