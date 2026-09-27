@@ -147,3 +147,8 @@ footer{padding:42px 0}.footer-grid{gap:22px}.footer-icons{gap:9px!important}.qua
 .talk-entry{display:flex;flex-direction:column;gap:10px;padding:28px 0}.talk-thumb{order:1;width:100%;grid-row:auto!important;grid-column:auto!important}.talk-thumb img{width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;display:block}.talk-entry .talk-year{order:2;grid-row:auto!important;grid-column:auto!important;padding:0;margin:4px 0 0}.talk-entry>div{order:3;grid-row:auto!important;grid-column:auto!important;padding:0}.talk-entry h3{margin:0 0 7px}
 .summer-school-gallery{grid-template-columns:1fr}
 }
+
+/* v15: unified project layout and lecture photo sizing */
+.maham-card{display:block}.maham-card .project-page-copy{max-width:none;margin-bottom:32px}.maham-card .project-page-image{display:block;width:100
+/* v15: unified project layout and lecture photo sizing */
+.maham-card{display:block}.maham-card .project-page-copy{max-width:none;margin-bottom:32px}.maham-card .project-page-image{display:block;width:100
