@@ -134,3 +134,16 @@ footer{padding:42px 0}.footer-grid{gap:22px}.footer-icons{gap:9px!important}.qua
 /* v13: CV hero spacing and repository link */
 .cv-hero .actions{margin-top:28px}.cv-hero .page-lede a{font-weight:700;text-decoration:none;border-bottom:1px solid #9aaab6}.cv-hero .page-lede a:hover{color:var(--ink);border-color:var(--ink)}
 @media(max-width:800px){.cv-hero .actions{margin-top:22px}}
+
+/* v14: responsive media flow, projects, talks, and fieldwork */
+.aafiya-card{display:block}.aafiya-card .project-page-copy{max-width:none;margin-bottom:32px}.aafiya-card .project-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:start}.aafiya-gallery img{width:100%;height:420px;object-fit:contain;background:#fff;display:block}.project-figure,.summer-school-gallery figure{margin:0}.media-caption{margin-top:9px;font-size:.76rem;line-height:1.45;color:var(--muted)}
+
+.summer-school-feature{display:flex;flex-direction:column;gap:30px;align-items:stretch}.summer-school-copy{order:1;width:100%}.summer-school-copy p{max-width:none}.summer-school-gallery{order:2;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.summer-school-gallery img{width:100%;height:auto;object-fit:contain;display:block}
+
+@media(max-width:800px){
+.research-grid{grid-template-columns:1fr!important;gap:18px}.research-overview,.field-feature{width:100%}.research-overview img,.field-feature img{width:100%;height:auto;display:block}
+.field-gallery{grid-template-columns:1fr;gap:18px}.field-gallery img{width:100%;height:auto;object-fit:contain;display:block}
+.aafiya-card .project-gallery{grid-template-columns:1fr}.aafiya-gallery img{height:auto}
+.talk-entry{display:flex;flex-direction:column;gap:10px;padding:28px 0}.talk-thumb{order:1;width:100%;grid-row:auto!important;grid-column:auto!important}.talk-thumb img{width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;display:block}.talk-entry .talk-year{order:2;grid-row:auto!important;grid-column:auto!important;padding:0;margin:4px 0 0}.talk-entry>div{order:3;grid-row:auto!important;grid-column:auto!important;padding:0}.talk-entry h3{margin:0 0 7px}
+.summer-school-gallery{grid-template-columns:1fr}
+}
