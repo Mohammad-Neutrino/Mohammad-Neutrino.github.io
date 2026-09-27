@@ -149,6 +149,5 @@ footer{padding:42px 0}.footer-grid{gap:22px}.footer-icons{gap:9px!important}.qua
 }
 
 /* v15: unified project layout and lecture photo sizing */
-.maham-card{display:block}.maham-card .project-page-copy{max-width:none;margin-bottom:32px}.maham-card .project-page-image{display:block;width:100
-/* v15: unified project layout and lecture photo sizing */
-.maham-card{display:block}.maham-card .project-page-copy{max-width:none;margin-bottom:32px}.maham-card .project-page-image{display:block;width:100
+.maham-card{display:block}.maham-card .project-page-copy{max-width:none;margin-bottom:32px}.maham-card .project-page-image{display:block;width:100%}.maham-card .project-page-image img{width:100%;height:auto;display:block}.summer-school-gallery img{width:100%;height:430px;object-fit:cover;object-position:center;display:block}
+@media(max-width:800px){.summer-school-gallery img{height:auto;object-fit:contain}.maham-card .project-page-copy{margin-bottom:24px}}
