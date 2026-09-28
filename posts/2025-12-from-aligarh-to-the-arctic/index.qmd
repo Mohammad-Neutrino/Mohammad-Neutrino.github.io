@@ -1,0 +1,63 @@
+---
+title: "From Aligarh to the Arctic"
+pagetitle: "From Aligarh to the Arctic | Mohammad Ful Hossain Seikh"
+subtitle: "Carrying the Spirit of Sir Syed to Greenland’s Summit"
+author: "Mohammad Ful Hossain Seikh"
+date: 2025-12-01
+date-format: "MMMM YYYY"
+description: "A personal reflection on the journey from Murshidabad and Aligarh to radio-neutrino fieldwork at Summit Station, Greenland."
+categories:
+  - Field & Travel Notes
+image: "../../assets/amu-flag.jpg"
+draft: false
+---
+
+```{=html}
+<section class="essay-page-hero wrap">
+<p class="section-kicker">Field &amp; Travel Notes</p>
+<h1>From Aligarh to the Arctic</h1>
+<p class="essay-subtitle">Carrying the Spirit of Sir Syed to Greenland’s Summit</p>
+<div class="essay-meta"><span>December 2025</span><span>Originally published in <em>ALIG Atlanta 2025</em>, pp. 20–21</span></div>
+<p class="page-links"><a href="https://www.amuatl.org/publications/1" target="_blank" rel="noopener">Original publication →</a></p>
+</section>
+
+<section class="essay-body wrap">
+
+<figure class="essay-hero-photo">
+<a class="zoomable" href="/assets/amu-flag.jpg"><img src="/assets/amu-flag.jpg" alt="Mohammad Ful Hossain Seikh holding the Aligarh Muslim University flag at Summit Station, Greenland"></a>
+<figcaption>At Summit Station, Greenland, with the Aligarh Muslim University flag during the 2025 field campaign.</figcaption>
+</figure>
+
+<article class="essay-text">
+
+<p>Somewhere high above the Arctic Circle, inside a roaring C-130 Hercules aircraft of the U.S. Air National Guard slicing through a snowstorm, I was reading “The Sealed Nectar” and thinking of Aligarh. Outside, the world was a blur of white and wind. Inside, my thoughts drifted back to the red-brick corridors of Aligarh Muslim University, to the place that built my courage to dream beyond the imaginable. I was the only Indian scientist on board, heading toward Summit Station, Greenland, a speck on the planet where air thins at three kilometers above sea level and the ice below is three-and-a-half kilometers thick. I did not know what awaited me there, only that the journey that began in Murshidabad, passed through Aligarh, had brought me here, to the edge of the Earth.</p>
+
+<p>When I finally stood on that vast expanse of eternal snow, the wind biting through my layers, I unfurled three flags: India’s tricolor, the AMU banner, and the University of Kansas flag. The saffron blazed against the midnight sun, the white melted into the untouched snow, the greens whispered through the name Greenland, the crimson of KU and AMU gleamed with pride, and the blue of Kansas stretched endlessly into the Arctic sky; each color alive upon the world’s whitest canvas. People may call it a small gesture, but to me, it was everything, a moment where my alma mater met the pole, where a student’s gratitude met the sky.</p>
+
+<p>Few know what it takes to work at the top of the world. The cold can freeze your eyelashes within minutes, and any open skin is instantly at risk of frostbite. The sun never sets, and a snowstorm can turn the world invisible in seconds. I drove snowmobiles alone through blizzards, sometimes fearing polar bears, there had been sightings the year before, and often questioning the limits of endurance. Yet amid the silence and the snow, memories of Aligarh kept me company.</p>
+
+<p>At the core of my journey was the Radio Neutrino Observatory in Greenland (RNO-G), a pioneering experiment searching for ultra-high energy neutrinos, ghostly messengers that may help us understand the universe’s most violent and energetic events. And even in these unforgiving conditions, science continues to push forward. RNO-G stands as a reminder of what collaboration and persistence can achieve, and it quietly tells young people everywhere that curiosity can carry them to places they never imagined.</p>
+
+<p>I remembered Saif Sheikh bhai, a senior whose resilience has always inspired me, and prayed for his recovery. I thought of Wasikul Islam bhai, my SSGSA mentor, whose firm but caring advice stopped me from rushing into a master’s program in Germany and instead guided me toward a PhD in the United States, a decision that changed my life. I smiled thinking of Sachin Gupta bhai, who, without ever meeting me, paid from his pocket to send my test scores when I could not afford it. I thought of Rehan Baqri bhai’s calm wisdom and Ali Rizvi bhai’s help in arranging the AMU flag that would one day flutter on the Greenlandic plateau. And beyond them all, I thought of my wife, who would surely be prouder than I can ever be, and my parents, who still do not quite understand where Greenland is, but whose prayers have carried me farther than any aircraft ever could.</p>
+
+<p>What bound all these memories together was AMU, my alma mater, the cultivator of my grey matter, the community that guided me long before I ever believed I belonged there, nurturing me quietly and patiently. SSGSA was its extension across oceans, a living reminder of what Sir Syed envisioned more than a century ago, a fellowship of minds connected not by geography but by purpose. Without AMU and SSGSA, I might have had ideas but not the direction, ambition but not the opportunity.</p>
+
+<p>At Summit Station, where the temperature dipped to minus fifty five degrees Celsius and even breathing felt earned, I realized how much of me was shaped in Aligarh, the curiosity to ask, the resilience to persist, and the humility to stay grounded no matter how far I go. In those long hours when the wind pressed against the windows and the horizon faded into white, I remembered my teachers’ words, my friends’ laughter, and the countless evenings under the AMU sky and in the ‘chai dhaba’ filled with debate, hope, and dreams.</p>
+
+<p>So yes, I am proud. Proud to be the first Alig to reach Greenland’s Summit Station, carrying the spirit of Sir Syed’s movement into a land where life barely exists but science still flourishes. But more than pride, it is gratitude that fills my heart, gratitude to those who believed in a boy from Murshidabad and taught him that the truest measure of success is not where you reach, but how many people’s hopes you carry along the way.</p>
+
+<p>From Saktipur to Summit, the journey has been improbable, humbling, and full of meaning. The ice taught me endurance, science taught me precision, but Aligarh taught me grace, to stay human amid the extremes.</p>
+
+<p>As I planted those flags into the polar wind, I felt something eternal pass through me, the continuity of Sir Syed’s dream, still alive, still rising, still inspiring.</p>
+
+<p class="essay-closing">“From Aligarh to the Arctic, the journey continues, and it will always begin at Aligarh.”</p>
+
+</article>
+
+<div class="essay-publication-note">
+<p><strong>Publication note.</strong> This essay was originally published in <em>ALIG Atlanta 2025</em>, the annual publication of the Aligarh Alumni Association of Atlanta. This web edition preserves the published text with formatting adapted for online reading.</p>
+<a class="text-link" href="https://www.amuatl.org/publications/1" target="_blank" rel="noopener">View the original publication →</a>
+</div>
+
+</section>
+```
