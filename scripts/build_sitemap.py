@@ -7,7 +7,7 @@ urls = []
 
 for p in root.rglob("*.html"):
     rel = p.relative_to(root).as_posix()
-    if rel == "404.html" or rel.startswith("site_libs/"):
+    if rel == "404.html" or rel.startswith("site_libs/") or p.name.startswith("google"):
         continue
     if rel == "index.html":
         url = base + "/"
