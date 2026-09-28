@@ -5,7 +5,7 @@ subtitle: "Carrying the Spirit of Sir Syed to Greenland’s Summit"
 author: "Mohammad Ful Hossain Seikh"
 date: 2025-12-01
 date-format: "MMMM YYYY"
-description: "A personal reflection on the journey from Murshidabad and Aligarh to radio-neutrino fieldwork at Summit Station, Greenland."
+description: "A personal reflection on the journey from Murshidabad and Aligarh to Summit Station, Greenland, and on the people, science, and gratitude carried along the way."
 categories:
   - Field & Travel Notes
 image: "../../assets/amu-flag.jpg"
@@ -56,7 +56,6 @@ draft: false
 
 <div class="essay-publication-note">
 <p><strong>Publication note.</strong> This essay was originally published in <em>ALIG Atlanta 2025</em>, the annual publication of the Aligarh Alumni Association of Atlanta. This web edition preserves the published text with formatting adapted for online reading.</p>
-<a class="text-link" href="https://www.amuatl.org/publications/1" target="_blank" rel="noopener">View the original publication →</a>
 </div>
 
 </section>
