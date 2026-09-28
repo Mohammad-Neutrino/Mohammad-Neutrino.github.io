@@ -177,3 +177,8 @@ footer{padding:42px 0}.footer-grid{gap:22px}.footer-icons{gap:9px!important}.qua
 .notes-listing-section .quarto-post .metadata{grid-column:1!important;grid-row:1!important}
 .notes-listing-section .quarto-post .body{grid-column:1!important;grid-row:2!important}
 }
+
+
+/* v18: homepage Notes flow */
+.home-note-feature{max-width:none}
+.home-note-feature>p:not(.label){max-width:none}
