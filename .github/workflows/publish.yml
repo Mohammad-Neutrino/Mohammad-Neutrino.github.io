@@ -22,6 +22,8 @@ jobs:
       - uses: quarto-dev/quarto-actions/setup@v2
       - name: Render Quarto site
         run: quarto render
+      - name: Generate sitemap
+        run: python3 scripts/build_sitemap.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -16,9 +16,13 @@ project:
     - MyCV.pdf
     - assets/**
     - 404.html
+    - robots.txt
 
 website:
   title: "Mohammad Ful Hossain Seikh"
+  site-url: "https://mohammad-neutrino.github.io/"
+  description: "Official academic website of Mohammad Ful Hossain Seikh, Postdoctoral Researcher in Particle Astrophysics at the University of Kansas."
+  open-graph: true
 
 format:
   html:

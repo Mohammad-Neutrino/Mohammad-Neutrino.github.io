@@ -1,5 +1,6 @@
 ---
 pagetitle: "Notes | Mohammad Ful Hossain Seikh"
+description: "Technical notes, physics explainers, research perspectives, fieldwork, instrumentation, and scientific writing by Mohammad Ful Hossain Seikh."
 listing:
   contents: posts
   sort: "date desc"
