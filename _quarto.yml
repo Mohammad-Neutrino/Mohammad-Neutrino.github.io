@@ -17,6 +17,7 @@ project:
     - assets/**
     - 404.html
     - robots.txt
+    - googled27c0c486034635d.html
 
 website:
   title: "Mohammad Ful Hossain Seikh"
