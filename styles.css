@@ -814,3 +814,13 @@ color:#fff!important
 
 /* v24: Quarto hidden utility */
 .d-none{display:none!important}
+
+    
+/* v25: Notes date metadata */
+.notes-listing-section .listing-date a{
+color:var(--muted)!important;
+text-decoration:none!important;
+border-bottom:0!important;
+pointer-events:none;
+cursor:default
+}
