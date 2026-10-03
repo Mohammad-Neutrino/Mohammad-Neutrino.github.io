@@ -517,3 +517,114 @@ grid-row:auto
 border-top:0;
 border-bottom:0
 }
+
+
+/* v21: refined essay layout */
+/* Essay pages should read like the rest of the site, not a separate magazine layout */
+.essay-page-hero{
+padding-top:72px;
+padding-bottom:42px
+}
+
+.essay-page-hero h1{
+font-size:clamp(3rem,4vw,4.3rem);
+line-height:1.02;
+letter-spacing:-.04em;
+max-width:none;
+margin:10px 0 14px
+}
+
+.essay-subtitle{
+font-size:1.15rem;
+line-height:1.5;
+max-width:none;
+margin:0 0 17px
+}
+
+.essay-meta{
+gap:7px 20px;
+font-size:.82rem
+}
+
+.essay-page-hero .page-links{
+margin-top:14px
+}
+
+.essay-body{
+padding-top:38px;
+padding-bottom:80px
+}
+
+.essay-hero-photo{
+max-width:900px;
+margin:0 auto 42px
+}
+
+.essay-hero-photo img{
+width:100%;
+height:auto;
+object-fit:contain;
+object-position:center
+}
+
+.essay-hero-photo figcaption{
+margin-top:8px;
+font-size:.75rem
+}
+
+.essay-text{
+max-width:900px;
+margin:0 auto
+}
+
+.essay-text p{
+font-size:1.02rem;
+line-height:1.74
+}
+
+.essay-text p+p{
+margin-top:1.28em
+}
+
+.essay-publication-note{
+max-width:900px;
+margin-top:42px
+}
+
+.essay-closing{
+font-size:1.22rem!important;
+line-height:1.58!important;
+padding:24px 0;
+margin-top:30px!important
+}
+
+@media(max-width:900px){
+.essay-page-hero h1{
+font-size:clamp(2.8rem,8vw,3.7rem)
+}
+}
+
+@media(max-width:800px){
+.essay-page-hero{
+padding-top:48px;
+padding-bottom:34px
+}
+.essay-page-hero h1{
+font-size:clamp(2.55rem,10vw,3.35rem);
+line-height:1.03
+}
+.essay-subtitle{
+font-size:1.04rem
+}
+.essay-body{
+padding-top:28px;
+padding-bottom:62px
+}
+.essay-hero-photo{
+margin-bottom:32px
+}
+.essay-text p{
+font-size:1rem;
+line-height:1.7
+}
+}
