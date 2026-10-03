@@ -413,3 +413,107 @@ grid-template-columns:1fr;
 gap:4px
 }
 }
+
+
+/* v20: compact Upcoming and Notes source fix */
+.upcoming{
+grid-template-columns:260px minmax(0,1fr);
+gap:54px;
+padding-top:30px;
+padding-bottom:32px
+}
+.upcoming-heading .section-kicker{margin:0 0 7px}
+.upcoming-heading h2{
+font-size:2rem;
+line-height:1.08;
+margin:0;
+white-space:nowrap
+}
+.upcoming-list{
+border:0;
+display:flex;
+flex-direction:column;
+gap:10px;
+padding-top:3px
+}
+.upcoming-item{
+display:grid;
+grid-template-columns:125px 175px minmax(0,1fr);
+gap:18px;
+align-items:baseline;
+padding:6px 0;
+border:0
+}
+.upcoming-item time{
+font-size:.82rem;
+font-weight:700;
+color:var(--blue);
+white-space:nowrap
+}
+.upcoming-item strong{
+display:block;
+font-size:.96rem;
+color:var(--ink);
+white-space:nowrap
+}
+.upcoming-item span{
+display:block;
+margin:0;
+font-size:.9rem;
+color:var(--muted)
+}
+
+/* Notes landing page: keep Quarto generation visually consistent with static pages */
+.notes-listing-section .quarto-post{
+padding:22px 0 24px!important
+}
+.notes-listing-section .listing-title,
+.notes-listing-section .listing-title a{
+font-size:1.55rem!important
+}
+.notes-listing-section .listing-description,
+.notes-listing-section .listing-description a{
+font-size:.96rem!important;
+line-height:1.58!important
+}
+
+@media(max-width:800px){
+.upcoming{
+grid-template-columns:1fr;
+gap:18px;
+padding-top:28px;
+padding-bottom:30px
+}
+.upcoming-heading h2{
+font-size:1.9rem;
+white-space:normal
+}
+.upcoming-item{
+grid-template-columns:110px minmax(0,1fr);
+gap:4px 16px;
+padding:5px 0
+}
+.upcoming-item time{grid-column:1;grid-row:1}
+.upcoming-item strong{grid-column:2;grid-row:1}
+.upcoming-item span{grid-column:2;grid-row:2}
+}
+
+@media(max-width:520px){
+.upcoming-item{
+grid-template-columns:1fr;
+gap:2px
+}
+.upcoming-item time,
+.upcoming-item strong,
+.upcoming-item span{
+grid-column:1;
+grid-row:auto
+}
+}
+
+
+/* v20.1: final Upcoming cleanup */
+.upcoming{
+border-top:0;
+border-bottom:0
+}

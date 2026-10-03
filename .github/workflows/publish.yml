@@ -22,6 +22,17 @@ jobs:
       - uses: quarto-dev/quarto-actions/setup@v2
       - name: Render Quarto site
         run: quarto render
+      - name: Validate Notes build
+        run: |
+          test -f _site/notes.html
+          test -f _site/posts/2025-12-from-aligarh-to-the-arctic/index.html
+          grep -q "Recent Writing" _site/notes.html
+          grep -q "From Aligarh to the Arctic" _site/notes.html
+          if grep -q "Writing in Progress" _site/notes.html; then
+            echo "ERROR: stale Notes page was generated"
+            exit 1
+          fi
+
       - name: Generate sitemap
         run: python3 scripts/build_sitemap.py
       - uses: actions/configure-pages@v5
