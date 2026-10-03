@@ -810,3 +810,7 @@ border-color:#8c9bad!important;
 color:#fff!important
 }
 }
+
+
+/* v24: Quarto hidden utility */
+.d-none{display:none!important}
