@@ -11,6 +11,7 @@ listing:
 ---
 
 ```{=html}
+<style>.listing-no-matching{display:none!important}</style>
 <section class="page-hero wrap notes-page-hero"><p class="section-kicker">Notes</p><h1>Ideas, Explanations &amp; Notes</h1><p class="page-lede">Essays and notes on particle astrophysics, radio detection, instrumentation, and the practical side of experimental science. Alongside technical explainers and research perspectives, I write about field campaigns, scientific travel, and the people and experiences surrounding the work.</p></section>
 <section class="page-section wrap notes-listing-section"><div class="section-head"><div><p class="section-kicker">Writing</p><h2 class="no-anchor">Recent Writing</h2></div></div>
 ```
