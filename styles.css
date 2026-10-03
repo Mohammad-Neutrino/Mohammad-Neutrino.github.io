@@ -773,3 +773,40 @@ grid-column:1!important;
 grid-row:2!important
 }
 }
+
+
+/* v23: Upcoming separation and mobile menu contrast */
+/* Upcoming: a distinct strip between the hero and the research content */
+.upcoming{
+border-top:1px solid var(--line);
+border-bottom:1px solid var(--line);
+padding-top:28px;
+padding-bottom:28px
+}
+
+/* Mobile menu: keep it clearly visible on the dark header */
+@media(max-width:800px){
+.site-header .menu{
+display:block;
+margin-left:auto;
+-webkit-appearance:none;
+appearance:none;
+background:transparent!important;
+color:#fff!important;
+border:1px solid #607086!important;
+border-radius:999px;
+padding:7px 12px;
+font:inherit;
+font-size:.82rem;
+font-weight:700;
+line-height:1.1;
+cursor:pointer
+}
+
+.site-header .menu:hover,
+.site-header .menu:focus-visible{
+background:rgba(255,255,255,.08)!important;
+border-color:#8c9bad!important;
+color:#fff!important
+}
+}
