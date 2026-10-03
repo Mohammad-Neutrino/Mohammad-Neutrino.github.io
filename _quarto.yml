@@ -27,9 +27,10 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: none
     css: styles.css
     page-layout: full
     toc: false
+    anchor-sections: false
     include-before-body: includes/quarto-header.html
     include-after-body: includes/quarto-footer.html
