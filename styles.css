@@ -852,3 +852,47 @@ cursor:default
 .note-facts>div{grid-template-columns:1fr;gap:3px}
 .essay-text h2{font-size:1.65rem;margin-top:34px}
 }
+
+/* v28: technical-note figure cleanup */
+.note-wide-figure{
+max-width:900px;
+margin:38px auto 42px
+}
+.note-wide-figure a{
+display:block;
+width:100%
+}
+.note-wide-figure img{
+display:block;
+width:100%;
+height:auto
+}
+.note-wide-figure figcaption{
+margin-top:8px;
+color:var(--muted);
+font-size:.75rem;
+line-height:1.5
+}
+
+.note-facts>div{
+font-size:1rem;
+line-height:1.5
+}
+.note-facts strong{
+font-size:inherit;
+line-height:inherit;
+font-weight:750
+}
+.note-facts span{
+font-size:inherit;
+line-height:inherit
+}
+.note-facts code{
+font:inherit;
+font-size:inherit;
+line-height:inherit;
+color:inherit;
+background:none;
+border:0;
+padding:0
+}

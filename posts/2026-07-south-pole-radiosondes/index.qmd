@@ -33,34 +33,9 @@ draft: false
 </article>
 
 <figure class="note-wide-figure">
-<a class="zoomable" href="/assets/sonde_flights_in_South_Pole.png"><img src="/assets/sonde_flights_in_South_Pole.png" alt="South Pole radiosonde and ozonesonde flight times from 2013 through 2023"></a>
-<figcaption>South Pole ozonesonde and routine radiosonde launch patterns from 2013–2023. Ozonesonde records are from the NOAA Global Monitoring Laboratory South Pole balloon-borne ozonesonde archive.</figcaption>
+<a class="zoomable" href="/assets/radiosonde_tx_frequency_by_year_2013_2023_trend_preview.png"><img src="/assets/radiosonde_tx_frequency_by_year_2013_2023_trend_preview.png" alt="South Pole radiosonde transmitter frequency trend from 2013 through 2023"></a>
+<figcaption>Routine South Pole radiosonde transmitter frequencies from 2013–2023. The dashed line marks the first archived MW41 sounding on November 27, 2015. Data: Antarctic Meteorological Research and Data Center (AMRDC), in collaboration with the South Pole Meteorology Office.</figcaption>
 </figure>
-
-<article class="essay-text">
-
-<p>The distinction also matters in frequency space. The South Pole ozonesonde flights examined here used an iMet-1 radiosonde near 402 MHz. Some ozonesonde payloads could additionally carry a Vaisala RS-series radiosonde as a piggyback instrument for an independent meteorological profile.</p>
-
-<h2>What changed?</h2>
-
-<div class="note-facts">
-<div><strong>Ground system</strong><span>DigiCORA/DC3DB → Vaisala MW41 2.3.0</span></div>
-<div><strong>Station identifier</strong><span><code>SOUTHPOLE</code> → <code>NZSP</code></span></div>
-<div><strong>Archive structure</strong><span>CSV/text exports → MWX/XML tables</span></div>
-<div><strong>Routine frequency</strong><span>403.010 MHz → 404.000 MHz</span></div>
-<div><strong>Radiosonde</strong><span>RS92 → RS92</span></div>
-</div>
-
-<p>The last point is important. The routine radiosonde did not change from an RS92 to an RS41 at this boundary. The pre-transition metadata identifies a Vaisala RS92-SGP, and the first MW41 sounding still reports the radiosonde family as RS92.</p>
-
-<p>What changed was its configured transmission channel. Both 403.010 and 404.000 MHz lie within the selectable operating range of the RS92-SGP transmitter.</p>
-
-</article>
-
-<div class="note-pdf-figure">
-<iframe src="/assets/radiosonde_tx_frequency_by_year_2013_2023_trend.pdf#view=FitH&amp;toolbar=0" title="South Pole radiosonde transmitter frequency trend from 2013 through 2023"></iframe>
-<p class="media-caption">Routine South Pole radiosonde transmitter frequencies from 2013–2023. The dashed line marks the first archived MW41 sounding on November 27, 2015. <a href="/assets/radiosonde_tx_frequency_by_year_2013_2023_trend.pdf" target="_blank" rel="noopener">Open PDF →</a></p>
-</div>
 
 <article class="essay-text">
 
@@ -77,8 +52,8 @@ draft: false
 <p>In this case, the 403-to-404 MHz transition is best understood as part of a sounding-system and configuration change, not the arrival of a new radiosonde model.</p>
 
 <div class="note-source-note">
-<p><strong>Data and documentation.</strong> Ozonesonde launch information is from the NOAA Global Monitoring Laboratory South Pole Balloon-Borne Ozonesonde Profile Measurement Program. The system transition was interpreted using archived sounding metadata together with Vaisala MW41 and RS92 documentation.</p>
-<p><a href="https://gml.noaa.gov/aftp/data/ozwv/Ozonesonde/South%20Pole,%20Antartica/" target="_blank" rel="noopener">NOAA South Pole ozonesonde archive →</a></p>
+<p><strong>Data and documentation.</strong> Routine South Pole radiosonde records are from the Antarctic Meteorological Research and Data Center (AMRDC), in collaboration with the South Pole Meteorology Office. Ozonesonde launch information is from the NOAA Global Monitoring Laboratory South Pole Balloon-Borne Ozonesonde Profile Measurement Program. The system transition was interpreted using archived sounding metadata together with Vaisala MW41 and RS92 documentation.</p>
+<p><a href="https://amrdc.ssec.wisc.edu/usap/southpole" target="_blank" rel="noopener">AMRDC South Pole meteorology →</a> &nbsp;·&nbsp; <a href="https://gml.noaa.gov/aftp/data/ozwv/Ozonesonde/South%20Pole,%20Antartica/" target="_blank" rel="noopener">NOAA South Pole ozonesonde archive →</a></p>
 </div>
 
 </article>
