@@ -1,0 +1,86 @@
+---
+title: "South Pole Radiosondes: 403 to 404 MHz"
+pagetitle: "South Pole Radiosondes: 403 to 404 MHz | Mohammad Ful Hossain Seikh"
+subtitle: "What changed on November 27, 2015"
+author: "Mohammad Ful Hossain Seikh"
+date: 2026-07-06
+date-format: "MMMM D, YYYY"
+description: "A 2015 South Pole sounding-system upgrade shifted the routine radiosonde channel from 403 to 404 MHz without changing the RS92 radiosonde."
+categories:
+  - Lab & Instrumentation
+draft: false
+---
+
+<section class="essay-page-hero wrap">
+<p class="section-kicker">Lab &amp; Instrumentation</p>
+<h1>South Pole Radiosondes: 403 to 404 MHz</h1>
+<p class="essay-subtitle">What changed on November 27, 2015</p>
+<div class="essay-meta"><span>July 6, 2026</span></div>
+</section>
+
+<section class="essay-body wrap">
+
+<article class="essay-text">
+
+<p>While studying the long-term radio-frequency environment at the South Pole, I found a sharp change in the routine radiosonde record: transmissions clustered near 403 MHz before late 2015 and near 404 MHz afterward.</p>
+
+<p>The boundary falls on November 27, 2015, between the soundings <code>SOUTHPOLE_20151127_092614</code> and <code>NZSP_20151127_212749</code>. The first sounding after the transition identifies the ground system as Vaisala MW41 version 2.3.0. The change was therefore part of a broader sounding-system transition rather than the appearance of a new radiosonde model.</p>
+
+<h2>Two balloon programs</h2>
+
+<p>Routine radiosondes and ozonesondes both operate from the South Pole, but they serve different purposes and have different launch patterns. Routine soundings provide atmospheric profiles, while ozonesonde flights add measurements of the vertical ozone distribution.</p>
+
+</article>
+
+<figure class="note-wide-figure">
+<a class="zoomable" href="/assets/sonde_flights_in_South_Pole.png"><img src="/assets/sonde_flights_in_South_Pole.png" alt="South Pole radiosonde and ozonesonde flight times from 2013 through 2023"></a>
+<figcaption>South Pole ozonesonde and routine radiosonde launch patterns from 2013–2023. Ozonesonde records are from the NOAA Global Monitoring Laboratory South Pole balloon-borne ozonesonde archive.</figcaption>
+</figure>
+
+<article class="essay-text">
+
+<p>The distinction also matters in frequency space. The South Pole ozonesonde flights examined here used an iMet-1 radiosonde near 402 MHz. Some ozonesonde payloads could additionally carry a Vaisala RS-series radiosonde as a piggyback instrument for an independent meteorological profile.</p>
+
+<h2>What changed?</h2>
+
+<div class="note-facts">
+<div><strong>Ground system</strong><span>DigiCORA/DC3DB → Vaisala MW41 2.3.0</span></div>
+<div><strong>Station identifier</strong><span><code>SOUTHPOLE</code> → <code>NZSP</code></span></div>
+<div><strong>Archive structure</strong><span>CSV/text exports → MWX/XML tables</span></div>
+<div><strong>Routine frequency</strong><span>403.010 MHz → 404.000 MHz</span></div>
+<div><strong>Radiosonde</strong><span>RS92 → RS92</span></div>
+</div>
+
+<p>The last point is important. The routine radiosonde did not change from an RS92 to an RS41 at this boundary. The pre-transition metadata identifies a Vaisala RS92-SGP, and the first MW41 sounding still reports the radiosonde family as RS92.</p>
+
+<p>What changed was its configured transmission channel. Both 403.010 and 404.000 MHz lie within the selectable operating range of the RS92-SGP transmitter.</p>
+
+</article>
+
+<div class="note-pdf-figure">
+<iframe src="/assets/radiosonde_tx_frequency_by_year_2013_2023_trend.pdf#view=FitH&amp;toolbar=0" title="South Pole radiosonde transmitter frequency trend from 2013 through 2023"></iframe>
+<p class="media-caption">Routine South Pole radiosonde transmitter frequencies from 2013–2023. The dashed line marks the first archived MW41 sounding on November 27, 2015. <a href="/assets/radiosonde_tx_frequency_by_year_2013_2023_trend.pdf" target="_blank" rel="noopener">Open PDF →</a></p>
+</div>
+
+<article class="essay-text">
+
+<h2>The 402–404 MHz picture</h2>
+
+<p>Before the transition, the routine RS92 near 403 MHz was separated from the approximately 402 MHz ozonesonde iMet-1 channel by about 1 MHz. After the move to 404 MHz, that separation increased to roughly 2 MHz.</p>
+
+<p>Greater separation would naturally reduce spectral overlap between nearby transmitters. It is tempting to interpret the reassignment in that context, but the available records do not document why 404 MHz was selected. What can be said confidently is that the frequency change occurred together with the MW41 commissioning.</p>
+
+<h2>Why it matters</h2>
+
+<p>For radio experiments, changes in station configuration can look like changes in the physical radio environment. A persistent narrowband source may move in frequency even though the transmitting hardware itself has not changed, while filenames, metadata, and archive formats can change at the same boundary.</p>
+
+<p>In this case, the 403-to-404 MHz transition is best understood as part of a sounding-system and configuration change, not the arrival of a new radiosonde model.</p>
+
+<div class="note-source-note">
+<p><strong>Data and documentation.</strong> Ozonesonde launch information is from the NOAA Global Monitoring Laboratory South Pole Balloon-Borne Ozonesonde Profile Measurement Program. The system transition was interpreted using archived sounding metadata together with Vaisala MW41 and RS92 documentation.</p>
+<p><a href="https://gml.noaa.gov/aftp/data/ozwv/Ozonesonde/South%20Pole,%20Antartica/" target="_blank" rel="noopener">NOAA South Pole ozonesonde archive →</a></p>
+</div>
+
+</article>
+
+</section>
