@@ -1,0 +1,64 @@
+---
+title: "Radio-Frequency Beating"
+pagetitle: "Radio-Frequency Beating | Mohammad Ful Hossain Seikh"
+subtitle: "Why two tones make a slow envelope"
+author: "Mohammad Ful Hossain Seikh"
+date: 2026-08-06
+date-format: "MMMM D, YYYY"
+description: "How two nearby narrowband radio signals produce a slowly varying beat envelope in the time domain."
+categories:
+  - Physics Explainers
+draft: false
+---
+
+<section class="essay-page-hero wrap">
+<p class="section-kicker">Physics Explainers</p>
+<h1>Radio-Frequency Beating</h1>
+<p class="essay-subtitle">Why two tones make a slow envelope</p>
+<div class="essay-meta"><span>August 6, 2026</span></div>
+</section>
+
+<section class="essay-body wrap physics-note">
+
+<article class="essay-text">
+
+<p>When two continuous radio-frequency signals lie close together in frequency, their sum can look very different in the time domain from either signal alone. Instead of a constant-amplitude oscillation, the waveform develops a slowly varying envelope: beating.</p>
+
+<h2>The difference frequency</h2>
+
+<p>For tones at frequencies <em>f</em><sub>1</sub> and <em>f</em><sub>2</sub>, the envelope varies at the difference frequency</p>
+
+<div class="note-equation">Δf = |f<sub>2</sub> − f<sub>1</sub>|</div>
+
+<p>and the characteristic beat period is</p>
+
+<div class="note-equation">T<sub>beat</sub> = 1 / Δf.</div>
+
+<p>For example, tones at 402 and 404 MHz are separated by 2 MHz, giving a beat period of 500 ns.</p>
+
+</article>
+
+<figure class="note-wide-figure">
+<a class="zoomable" href="/assets/two_tone_beating_preview.png"><img src="/assets/two_tone_beating_preview.png" alt="Synthetic example of beating from two nearby radio frequencies"></a>
+<figcaption>Synthetic two-tone example. Two narrowband components at 402 and 404 MHz produce a time-domain envelope with a characteristic period of 500 ns.</figcaption>
+</figure>
+
+<article class="essay-text">
+
+<h2>Spectrum versus waveform</h2>
+
+<p>The frequency-domain picture still contains two distinct narrowband components. The slower structure appears when the two oscillations are added together in the time domain.</p>
+
+<p>If the amplitudes are equal, destructive interference can drive the envelope nearly to zero. If they are unequal, the modulation remains visible but the minima stay above zero.</p>
+
+<h2>Why it matters for radio detectors</h2>
+
+<p>A waveform with a slowly varying envelope does not necessarily imply a broadband transient. Two persistent narrowband transmitters can produce this structure simply by being recorded at the same time.</p>
+
+<p>The relevant timescale is set by the separation between the carriers rather than by the carrier frequencies themselves. A separation of only a few megahertz naturally produces envelope structure on hundreds-of-nanoseconds timescales.</p>
+
+<p>This provides a useful connection to the <a href="/posts/2026-07-south-pole-radiosondes/">South Pole radiosonde environment</a>, where balloon-borne transmitters can occupy nearby channels around 402–404 MHz. The beat phenomenon itself is completely general and applies whenever nearby coherent tones are superposed.</p>
+
+</article>
+
+</section>
