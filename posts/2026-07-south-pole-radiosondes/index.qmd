@@ -5,7 +5,7 @@ subtitle: "What changed on November 27, 2015"
 author: "Mohammad Ful Hossain Seikh"
 date: 2026-07-06
 date-format: "MMMM D, YYYY"
-description: "A 2015 South Pole sounding-system upgrade shifted the routine radiosonde channel from 403 to 404 MHz without changing the RS92 radiosonde."
+description: "A South Pole sounding-system transition moved the routine radiosonde channel from 403 to 404 MHz without changing the RS92 radiosonde."
 categories:
   - Lab & Instrumentation
 draft: false
@@ -18,7 +18,7 @@ draft: false
 <div class="essay-meta"><span>July 6, 2026</span></div>
 </section>
 
-<section class="essay-body wrap">
+<section class="essay-body wrap radiosonde-note">
 
 <article class="essay-text">
 
@@ -28,7 +28,32 @@ draft: false
 
 <h2>Two balloon programs</h2>
 
-<p>Routine radiosondes and ozonesondes both operate from the South Pole, but they serve different purposes and have different launch patterns. Routine soundings provide atmospheric profiles, while ozonesonde flights add measurements of the vertical ozone distribution.</p>
+<p>Routine radiosondes and ozonesondes both operate from the South Pole, but they serve different purposes and follow different launch patterns. Routine soundings provide atmospheric profiles, while ozonesonde flights add measurements of the vertical ozone distribution.</p>
+
+</article>
+
+<figure class="note-wide-figure">
+<a class="zoomable" href="/assets/sonde_flights_in_South_Pole.png"><img src="/assets/sonde_flights_in_South_Pole.png" alt="South Pole radiosonde and ozonesonde flight times from 2013 through 2023"></a>
+<figcaption>South Pole ozonesonde and routine radiosonde launch patterns from 2013–2023. Routine radiosonde data: Antarctic Meteorological Research and Data Center (AMRDC), in collaboration with the South Pole Meteorology Office. Ozonesonde data: NOAA Global Monitoring Laboratory.</figcaption>
+</figure>
+
+<article class="essay-text">
+
+<p>The distinction also matters in frequency space. The South Pole ozonesonde flights examined here used an iMet-1 radiosonde near 402 MHz. Some ozonesonde payloads could additionally carry a Vaisala RS-series radiosonde as a piggyback instrument for an independent meteorological profile.</p>
+
+<h2>What changed?</h2>
+
+<div class="note-facts">
+<div><strong>Ground system</strong><span>DigiCORA/DC3DB → Vaisala MW41 2.3.0</span></div>
+<div><strong>Station identifier</strong><span><code>SOUTHPOLE</code> → <code>NZSP</code></span></div>
+<div><strong>Archive structure</strong><span>CSV/text exports → MWX/XML tables</span></div>
+<div><strong>Routine frequency</strong><span>403.010 MHz → 404.000 MHz</span></div>
+<div><strong>Radiosonde</strong><span>RS92 → RS92</span></div>
+</div>
+
+<p>The last point is important. The routine radiosonde did not change from an RS92 to an RS41 at this boundary. The pre-transition metadata identifies a Vaisala RS92-SGP, and the first MW41 sounding still identifies the radiosonde family as RS92.</p>
+
+<p>What changed was its configured transmission channel. Both 403.010 and 404.000 MHz lie within the selectable operating range of the RS92-SGP transmitter.</p>
 
 </article>
 
@@ -49,10 +74,10 @@ draft: false
 
 <p>For radio experiments, changes in station configuration can look like changes in the physical radio environment. A persistent narrowband source may move in frequency even though the transmitting hardware itself has not changed, while filenames, metadata, and archive formats can change at the same boundary.</p>
 
-<p>In this case, the 403-to-404 MHz transition is best understood as part of a sounding-system and configuration change, not the arrival of a new radiosonde model.</p>
+<p>Here, the 403-to-404 MHz transition is best understood as part of a sounding-system and configuration change, not the arrival of a new radiosonde model.</p>
 
 <div class="note-source-note">
-<p><strong>Data and documentation.</strong> Routine South Pole radiosonde records are from the Antarctic Meteorological Research and Data Center (AMRDC), in collaboration with the South Pole Meteorology Office. Ozonesonde launch information is from the NOAA Global Monitoring Laboratory South Pole Balloon-Borne Ozonesonde Profile Measurement Program. The system transition was interpreted using archived sounding metadata together with Vaisala MW41 and RS92 documentation.</p>
+<p><strong>Data and documentation.</strong> Routine South Pole radiosonde records are from the Antarctic Meteorological Research and Data Center (AMRDC), in collaboration with the South Pole Meteorology Office. Ozonesonde launch information is from the NOAA Global Monitoring Laboratory South Pole Balloon-Borne Ozonesonde Profile Measurement Program. The transition was interpreted using archived sounding metadata together with Vaisala MW41 and RS92 documentation.</p>
 <p><a href="https://amrdc.ssec.wisc.edu/usap/southpole" target="_blank" rel="noopener">AMRDC South Pole meteorology →</a> &nbsp;·&nbsp; <a href="https://gml.noaa.gov/aftp/data/ozwv/Ozonesonde/South%20Pole,%20Antartica/" target="_blank" rel="noopener">NOAA South Pole ozonesonde archive →</a></p>
 </div>
 
