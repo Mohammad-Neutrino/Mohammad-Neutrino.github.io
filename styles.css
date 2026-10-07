@@ -1002,3 +1002,18 @@ font-size:1.65rem;
 margin-top:34px
 }
 }
+
+
+/* v31: flexible Upcoming columns */
+@media(min-width:801px){
+.upcoming-item{
+grid-template-columns:125px minmax(0,.95fr) minmax(0,1.15fr)
+}
+.upcoming-item strong{
+white-space:normal;
+min-width:0
+}
+.upcoming-item span{
+min-width:0
+}
+}
